@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Build artifact
-        uses: actions/dowload-artifact@v5
+        uses: actions/download-artifact@v5
         with:
           name: dist-file
       - name: Output content
